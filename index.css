@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-image: url("basketball.jpg");
+    background-size:cover;
 }
 
 div.container {
@@ -22,10 +24,15 @@ div.points{
     font-size: 18px;
     line-height: 28px;
     /* or 155% */
-
+    cursor: pointer;
     text-align: center;
-
+    transition: 0.3s;
     color: #9AABD8;
+}
+
+div.points:hover{
+    color: rgb(0, 255, 221);
+    border-color: rgb(255, 94, 0);
 }
 
 #home-score{
